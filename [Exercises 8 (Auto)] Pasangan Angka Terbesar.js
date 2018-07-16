@@ -6,7 +6,7 @@ function pasanganTerbesar(num) {
     var strPair = [];
     
     
-    for (i = 0; i < strNum.length-1; i++){
+    for (var i = 0; i < strNum.length-1; i++){
               
             strPair.push(strNum[i]+strNum[i+1]);
              
@@ -20,7 +20,7 @@ function pasanganTerbesar(num) {
                 maxValue = strPair[j];
             } 
     } 
-    return maxValue;
+    return parseInt(maxValue);
 }
 
 // TEST CASES
